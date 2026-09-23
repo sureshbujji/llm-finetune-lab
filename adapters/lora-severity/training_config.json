@@ -1,0 +1,24 @@
+{
+  "model_source": "random",
+  "lora": {
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "target_modules": [
+      "c_proj",
+      "c_attn"
+    ],
+    "task_type": "TaskType.CAUSAL_LM"
+  },
+  "seed": 123,
+  "epochs": 10,
+  "n_train": 50,
+  "batch_size": 8,
+  "lr": 0.001,
+  "steps": 70,
+  "avg_loss": 4.444214752742222,
+  "trainable_params": 22528,
+  "total_params": 487296,
+  "smoke": false
+}
