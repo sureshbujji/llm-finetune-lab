@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Env
+.env
+
+# HuggingFace cache (only used by --model-source pretrained)
+.cache/
+
+# pytest
+.pytest_cache/
