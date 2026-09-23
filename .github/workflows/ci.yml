@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        # requirements.txt pins torch==2.4.1+cpu with the PyTorch CPU index as
+        # an extra index, so this stays CPU-only (~200MB, no CUDA wheels).
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: pytest -q
+      - name: Smoke test data prep (regenerates data/, fully offline)
+        run: python src/make_data.py
+      - name: Smoke test training (1 step on 4 examples, CPU, no network)
+        run: python src/train.py --smoke
+      - name: Smoke test eval (base vs LoRA, report to /tmp so the committed report is untouched)
+        run: python src/eval_before_after.py --smoke --report /tmp/finetune_report_smoke.md
