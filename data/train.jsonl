@@ -1,0 +1,50 @@
+{"title": "Push notifications silently dropped", "description": "Android push notifications never arrive; no error is logged anywhere. Seen on build 4821.", "severity": "High"}
+{"title": "Sidebar mixes capitalization styles", "description": "Menu items mix title case and sentence case in the navigation sidebar. Seen on build 4821.", "severity": "Low"}
+{"title": "Uneven card padding on home page", "description": "Cards on the home page have extra padding on the right edge. Reported by a customer on the support portal.", "severity": "Low"}
+{"title": "Footer copyright year is outdated", "description": "The footer still shows last year in the copyright line. Seen on both web and mobile.", "severity": "Low"}
+{"title": "Duplicate charges on payment retry", "description": "Retrying a timed-out payment creates a second charge and corrupts the ledger state. Seen on both web and mobile.", "severity": "Critical"}
+{"title": "CSV export sums the wrong column", "description": "The finance export totals the wrong column, so monthly reports are incorrect. Steps to reproduce are attached to the ticket.", "severity": "High"}
+{"title": "Dashboard widgets flicker on refresh", "description": "Widgets reload twice and flicker whenever the dashboard auto-refreshes. Seen on build 4821.", "severity": "Medium"}
+{"title": "Monthly report job runs out of memory", "description": "The reporting job fails with an out-of-memory error on large accounts. Reported by the QA team during regression.", "severity": "High"}
+{"title": "Search returns no results after upgrade", "description": "Queries that worked last week now return empty result sets. Seen on build 4821.", "severity": "High"}
+{"title": "Data loss when session refreshes", "description": "Unsaved form data is silently discarded when the session refreshes. Users lose hours of work. Seen on build 4821.", "severity": "Critical"}
+{"title": "Sidebar mixes capitalization styles", "description": "Menu items mix title case and sentence case in the navigation sidebar. Reported by a customer on the support portal.", "severity": "Low"}
+{"title": "Order created twice on timeout", "description": "A slow card authorization creates the order twice, double-charging the customer. Steps to reproduce are attached to the ticket.", "severity": "High"}
+{"title": "Duplicate charges on payment retry", "description": "Retrying a timed-out payment creates a second charge and corrupts the ledger state. Reported by the QA team during regression.", "severity": "Critical"}
+{"title": "Help tooltip truncated on narrow screens", "description": "The tooltip on the help icon is cut off on narrow viewports. Reported by a customer on the support portal.", "severity": "Low"}
+{"title": "Submit button uses old brand color", "description": "The settings page submit button still uses last year's brand blue. Steps to reproduce are attached to the ticket.", "severity": "Low"}
+{"title": "Reports page loads very slowly", "description": "The reports page takes over twenty seconds to load with default filters. Steps to reproduce are attached to the ticket.", "severity": "Medium"}
+{"title": "Table sort resets on pagination", "description": "Sorting a table is lost as soon as you move to the next page. Steps to reproduce are attached to the ticket.", "severity": "Medium"}
+{"title": "App crashes on launch", "description": "The application crashes immediately on startup for every user after the 3.2 update. No workaround exists. Seen on both web and mobile.", "severity": "Critical"}
+{"title": "Footer copyright year is outdated", "description": "The footer still shows last year in the copyright line. Reported by the QA team during regression.", "severity": "Low"}
+{"title": "Sync worker deadlock under load", "description": "The background sync worker deadlocks under load and the whole pipeline stalls indefinitely. Steps to reproduce are attached to the ticket.", "severity": "Critical"}
+{"title": "Submit button uses old brand color", "description": "The settings page submit button still uses last year's brand blue. Reported by the QA team during regression.", "severity": "Low"}
+{"title": "Edited records show stale values", "description": "After editing a record, the old values stay visible until a manual reload. Reproduced on staging with a clean profile.", "severity": "Medium"}
+{"title": "Search returns no results after upgrade", "description": "Queries that worked last week now return empty result sets. Steps to reproduce are attached to the ticket.", "severity": "High"}
+{"title": "Deploy takes down production API", "description": "The deploy script drops the API in all regions for several minutes on every release. Seen on both web and mobile.", "severity": "Critical"}
+{"title": "CSV export sums the wrong column", "description": "The finance export totals the wrong column, so monthly reports are incorrect. Seen on build 4821.", "severity": "High"}
+{"title": "Reports page loads very slowly", "description": "The reports page takes over twenty seconds to load with default filters. Seen on build 4821.", "severity": "Medium"}
+{"title": "Data loss when session refreshes", "description": "Unsaved form data is silently discarded when the session refreshes. Users lose hours of work. Reported by the QA team during regression.", "severity": "Critical"}
+{"title": "Duplicate charges on payment retry", "description": "Retrying a timed-out payment creates a second charge and corrupts the ledger state. Reproduced on staging with a clean profile.", "severity": "Critical"}
+{"title": "Reports page loads very slowly", "description": "The reports page takes over twenty seconds to load with default filters. Reported by the QA team during regression.", "severity": "Medium"}
+{"title": "Signup error message names no field", "description": "The signup form shows an error without saying which field is invalid. Seen on both web and mobile.", "severity": "Medium"}
+{"title": "Table sort resets on pagination", "description": "Sorting a table is lost as soon as you move to the next page. Reported by a customer on the support portal.", "severity": "Medium"}
+{"title": "Data loss when session refreshes", "description": "Unsaved form data is silently discarded when the session refreshes. Users lose hours of work. Steps to reproduce are attached to the ticket.", "severity": "Critical"}
+{"title": "Auth tokens logged in plaintext", "description": "Session tokens are written in plaintext to the debug console, enabling session hijack. Reproduced on staging with a clean profile.", "severity": "Critical"}
+{"title": "Deploy takes down production API", "description": "The deploy script drops the API in all regions for several minutes on every release. Reproduced on staging with a clean profile.", "severity": "Critical"}
+{"title": "CSV export sums the wrong column", "description": "The finance export totals the wrong column, so monthly reports are incorrect. Reported by a customer on the support portal.", "severity": "High"}
+{"title": "CSV export sums the wrong column", "description": "The finance export totals the wrong column, so monthly reports are incorrect. Reported by the QA team during regression.", "severity": "High"}
+{"title": "Footer copyright year is outdated", "description": "The footer still shows last year in the copyright line. Steps to reproduce are attached to the ticket.", "severity": "Low"}
+{"title": "Confirmation dialog renders off-center", "description": "The confirmation modal is misaligned on smaller laptop screens. Reported by a customer on the support portal.", "severity": "Medium"}
+{"title": "Footer copyright year is outdated", "description": "The footer still shows last year in the copyright line. Seen on build 4821.", "severity": "Low"}
+{"title": "Order created twice on timeout", "description": "A slow card authorization creates the order twice, double-charging the customer. Seen on both web and mobile.", "severity": "High"}
+{"title": "Order created twice on timeout", "description": "A slow card authorization creates the order twice, double-charging the customer. Reported by a customer on the support portal.", "severity": "High"}
+{"title": "Signup error message names no field", "description": "The signup form shows an error without saying which field is invalid. Reported by the QA team during regression.", "severity": "Medium"}
+{"title": "Confirmation dialog renders off-center", "description": "The confirmation modal is misaligned on smaller laptop screens. Reproduced on staging with a clean profile.", "severity": "Medium"}
+{"title": "App crashes on launch", "description": "The application crashes immediately on startup for every user after the 3.2 update. No workaround exists. Seen on build 4821.", "severity": "Critical"}
+{"title": "Dashboard widgets flicker on refresh", "description": "Widgets reload twice and flicker whenever the dashboard auto-refreshes. Reported by the QA team during regression.", "severity": "Medium"}
+{"title": "Footer copyright year is outdated", "description": "The footer still shows last year in the copyright line. Reported by a customer on the support portal.", "severity": "Low"}
+{"title": "Monthly report job runs out of memory", "description": "The reporting job fails with an out-of-memory error on large accounts. Reproduced on staging with a clean profile.", "severity": "High"}
+{"title": "Push notifications silently dropped", "description": "Android push notifications never arrive; no error is logged anywhere. Reported by the QA team during regression.", "severity": "High"}
+{"title": "Sidebar mixes capitalization styles", "description": "Menu items mix title case and sentence case in the navigation sidebar. Reproduced on staging with a clean profile.", "severity": "Low"}
+{"title": "Sync worker deadlock under load", "description": "The background sync worker deadlocks under load and the whole pipeline stalls indefinitely. Reproduced on staging with a clean profile.", "severity": "Critical"}
