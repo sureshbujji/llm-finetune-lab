@@ -1,0 +1,20 @@
+{"title": "SSO login fails for enterprise users", "description": "Single sign-on returns a 500 error for roughly half of enterprise accounts. Reported by a customer on the support portal.", "severity": "High"}
+{"title": "Dashboard widgets flicker on refresh", "description": "Widgets reload twice and flicker whenever the dashboard auto-refreshes. Reproduced on staging with a clean profile.", "severity": "Medium"}
+{"title": "App crashes on launch", "description": "The application crashes immediately on startup for every user after the 3.2 update. No workaround exists. Steps to reproduce are attached to the ticket.", "severity": "Critical"}
+{"title": "Order created twice on timeout", "description": "A slow card authorization creates the order twice, double-charging the customer. Seen on build 4821.", "severity": "High"}
+{"title": "Search returns no results after upgrade", "description": "Queries that worked last week now return empty result sets. Reported by the QA team during regression.", "severity": "High"}
+{"title": "Auth tokens logged in plaintext", "description": "Session tokens are written in plaintext to the debug console, enabling session hijack. Reported by a customer on the support portal.", "severity": "Critical"}
+{"title": "Help tooltip truncated on narrow screens", "description": "The tooltip on the help icon is cut off on narrow viewports. Reproduced on staging with a clean profile.", "severity": "Low"}
+{"title": "Sidebar mixes capitalization styles", "description": "Menu items mix title case and sentence case in the navigation sidebar. Steps to reproduce are attached to the ticket.", "severity": "Low"}
+{"title": "Confirmation dialog renders off-center", "description": "The confirmation modal is misaligned on smaller laptop screens. Steps to reproduce are attached to the ticket.", "severity": "Medium"}
+{"title": "Dashboard widgets flicker on refresh", "description": "Widgets reload twice and flicker whenever the dashboard auto-refreshes. Steps to reproduce are attached to the ticket.", "severity": "Medium"}
+{"title": "Duplicate charges on payment retry", "description": "Retrying a timed-out payment creates a second charge and corrupts the ledger state. Seen on build 4821.", "severity": "Critical"}
+{"title": "Sync worker deadlock under load", "description": "The background sync worker deadlocks under load and the whole pipeline stalls indefinitely. Seen on both web and mobile.", "severity": "Critical"}
+{"title": "Search returns no results after upgrade", "description": "Queries that worked last week now return empty result sets. Reported by a customer on the support portal.", "severity": "High"}
+{"title": "Sidebar mixes capitalization styles", "description": "Menu items mix title case and sentence case in the navigation sidebar. Reported by the QA team during regression.", "severity": "Low"}
+{"title": "Table sort resets on pagination", "description": "Sorting a table is lost as soon as you move to the next page. Seen on build 4821.", "severity": "Medium"}
+{"title": "Footer copyright year is outdated", "description": "The footer still shows last year in the copyright line. Reproduced on staging with a clean profile.", "severity": "Low"}
+{"title": "Search returns no results after upgrade", "description": "Queries that worked last week now return empty result sets. Reproduced on staging with a clean profile.", "severity": "High"}
+{"title": "Deploy takes down production API", "description": "The deploy script drops the API in all regions for several minutes on every release. Reported by a customer on the support portal.", "severity": "Critical"}
+{"title": "Reports page loads very slowly", "description": "The reports page takes over twenty seconds to load with default filters. Reproduced on staging with a clean profile.", "severity": "Medium"}
+{"title": "Sidebar mixes capitalization styles", "description": "Menu items mix title case and sentence case in the navigation sidebar. Seen on both web and mobile.", "severity": "Low"}
